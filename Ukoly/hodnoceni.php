@@ -1,13 +1,13 @@
 <?php
-$studentName = "Jan Novák";
+$studentName = "Adam Davídek";
 $test1 = 75;
 $test2 = 90;
 $test3 = 60;
-$platne = true;
+$platnost = true;
 $testy = [$test1, $test2, $test3];
 foreach ($testy as $body) {
     if ($body < 0 || $body > 100) {
-        $platne = false;
+        $platnost = false;
     }
 }
 if ($platne) {
