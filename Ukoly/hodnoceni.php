@@ -10,7 +10,7 @@ foreach ($testy as $body) {
         $platnost = false;
     }
 }
-if ($platne) {
+if ($platnost) {
     $total = $test1 + $test2 + $test3;
     $average = $total / 3;
     $procenta = ($total / 300) * 100;
@@ -43,7 +43,7 @@ if ($platne) {
 <h1>Hodnocení studenta</h1>
 <?php
 echo "<p><strong>Student:</strong> $studentName</p>";
-if (!$platne) {
+if (!$platnost) {
     echo "<p style='color:red;'><strong>Chyba:</strong> neplatné bodové hodnocení. ";
     echo "Každý test musí mít 0 až 100 bodů.</p>";
     echo "<p>Test 1: $test1 b., Test 2: $test2 b., Test 3: $test3 b.</p>";
