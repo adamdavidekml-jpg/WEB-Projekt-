@@ -29,4 +29,23 @@ for ($i = 1; $i <= 100; $i++) {
     $soucet += $i;
 }
 echo $soucet;
+$pocet = 10;
+while ($pocet >= 1) {
+    echo $pocet . "<br>";
+    $pocet--;
+}
+echo "Hotovo!<br><br>";
+$cislo2 = 8;
+while ($cislo2 < 5) {
+    echo "Výpis z while: $cislo2<br>";
+}
+do {
+    echo "Výpis z do...while: $number<br>";
+} while ($number < 5);
+echo "<br>";
+$i = 1;
+while ($i <= 5) {
+    echo $i . "<br>";
+    $i++;
+}
 ?>
