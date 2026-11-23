@@ -1,4 +1,5 @@
 <?php
+echo "Adam Davídek"
 echo "<h3>Úkol 1</h3>";
 for ($i = 1; $i <= 10; $i++) {
     echo $i . "<br>";
